@@ -334,6 +334,7 @@ GameObject:
   - component: {fileID: 2015807652}
   - component: {fileID: 2015807651}
   - component: {fileID: 2015807650}
+  - component: {fileID: 2015807654}
   - component: {fileID: 2015807649}
   m_Layer: 0
   m_Name: Cube
@@ -440,6 +441,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &2015807654
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015807648}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &2048465671
 GameObject:
   m_ObjectHideFlags: 0
@@ -525,13 +553,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2048465671}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.06034076, y: -0, z: -0, w: 0.9981778}
-  m_LocalPosition: {x: 0, y: 3.77, z: -12.11}
+  m_LocalRotation: {x: 0.20753986, y: -0, z: -0, w: 0.97822654}
+  m_LocalPosition: {x: 0, y: 8.79, z: -12}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 6.919, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 23.956, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
