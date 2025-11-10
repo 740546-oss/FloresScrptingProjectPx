@@ -17,6 +17,9 @@ public class IfStatements : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Space))
+            TemperatureTest();
+
+        coffeeTemperature -= Time.deltaTime * 5f;
     }
 }
