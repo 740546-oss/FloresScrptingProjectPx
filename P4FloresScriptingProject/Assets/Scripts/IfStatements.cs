@@ -22,4 +22,10 @@ public class IfStatements : MonoBehaviour
 
         coffeeTemperature -= Time.deltaTime * 5f;
     }
+
+void TemperatureTest ()
+
+    {
+        // If the coffee's temperature is greater than the hottest drinking temperature...
+        if(coffeeTemperature > hotLimitTemperature)
 }
